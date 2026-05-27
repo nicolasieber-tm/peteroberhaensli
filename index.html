@@ -36,7 +36,8 @@
     overflow-x:hidden;
   }
   html{overflow-x:hidden}
-  h1,h2,h3,h4,p{overflow-wrap:break-word;word-wrap:break-word;hyphens:auto}
+  h1,h2,h3,h4{hyphens:none;-webkit-hyphens:none;word-break:keep-all;overflow-wrap:normal}
+  p{hyphens:none;-webkit-hyphens:none;overflow-wrap:break-word}
   img{max-width:100%;height:auto}
   /* Karten: reines Weiss mit Hairline-Border */
   .pillar, .kurs-card, .testi, .episode-card, .booking-card, .faq-item, .topic, .platform-link, .session-option,
